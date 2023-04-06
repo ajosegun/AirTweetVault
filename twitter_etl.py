@@ -18,13 +18,6 @@ access_token = config.access_token
 access_token_secret = config.access_token_secret
 bear_token = config.bear_token
 
-# Twitter API credentials
-twitter_api_key = "3hFqNeHA1hnonTYTnlxoSgImN"
-twitter_api_secret = "Qvb9p37eH8vupKU0HpgHQDeCoDIDOuFJP4ukQY3Uo9luCzpV4X"
-access_token = "301911063-SBkqkO40wrC2nDHIIdNYEJG2cc6S2mqlLxla1Jvi"
-access_token_secret = "fEs8DQXEwG9H8ryDzpmGVl9M6matBjurelrvyxFTiZ1vh"
-bear_token = "AAAAAAAAAAAAAAAAAAAAAGQamgEAAAAAM%2Bk2nL2cuNRiAbq0VOOx%2B2CPpak%3DWjcYhNTCLjinZd5Yq4vzlozpd0SoDIunNigHfHFzmDhRe3HRHL"
-
 
 # Authenticate to Twitter
 auth = tweepy.OAuthHandler(twitter_api_key, twitter_api_secret)
